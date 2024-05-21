@@ -7,9 +7,12 @@ In this exercise, I implemented backend and frontend with node and react for par
 
 # Run locally 
 
-This app was configured to run in port 3001, and you can start dev mode with this:
+This app was configured to run in port arbitrary, and you can start dev mode with this:
 
 ```
 npm install
+```
+Also need to set environment variables how as `MONGODB_URI` and `PORT`. 
+```
 npm run dev
 ```
